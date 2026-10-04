@@ -1,0 +1,32 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyCharm
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Модели (тяжёлые бинарники — не нужны в репо)
+*.pkl
+*.h5
+*.joblib
+
+# Данные (если большие; для маленьких можно оставить)
+data/*.xls
+data/*.csv
+
+# Графики (генерируются заново)
+*.png
+
+# OS
+.DS_Store
+Thumbs.db
